@@ -1,0 +1,14 @@
+﻿{
+  "environment": "staging",
+  "browser": "Chrome",
+  "isLocal": true,
+  "wait_seconds": 30,
+  "page_load": 90,
+  "retry": 1,
+  "headless": false,
+  "environment_urls": {
+    "staging": "https://staging-app.hectre.com/",
+    "develop": "https://develop-app.hectre.com/",
+    "prod": "https://app.hectre.com/"
+  }
+}

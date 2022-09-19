@@ -1,0 +1,7 @@
+<testcase name="0-1002_Verify_User_Login_And_JobType_Create" status="error">
+<failure message="Test Failed at url: https://staging-app.hectre.com/admin/jobs&lt;br&gt;System.NullReferenceException : Current IWebElement Job Types is null&lt;br&gt;Starting timestamp: 14/09/2022 07:58:21 p. m.&lt;br&gt;Test: Verify_User_Login_And_JobType_Create&lt;br&gt;[INFO]: Navigating to url: https://staging-app.hectre.com/&lt;br&gt;    [STEP]: Entered text heber@hectre.com on input field Email&lt;br&gt;    [STEP]: Entered text Hectre2022 on input field Password&lt;br&gt;    [STEP]: Clicked Sign In Btn&lt;br&gt;    [STEP]: Clicked Admin&lt;br&gt;    [STEP]: Clicked Jobs &amp; Tasks&lt;br&gt;[ERROR]: Failed&lt;br&gt;   at Hectre.OMS.Tests.Selenium.Element.get_Current() in C:\git\QA\Hectre.OMS.Tests\Hectre.OMS.Tests\Selenium\Element.cs:line 21
+   at Hectre.OMS.Tests.Selenium.Element.Click() in C:\git\QA\Hectre.OMS.Tests\Hectre.OMS.Tests\Selenium\Element.cs:line 66
+   at Hectre.OMS.Tests.Pages.PagesObjects.JobAndTasks.ClickJobTypes() in C:\git\QA\Hectre.OMS.Tests\Hectre.OMS.Tests\Pages\PagesObjects\JobAndTasks.cs:line 19
+   at Hectre.OMS.Tests.Tests.Login.Verify_User_Login_And_JobType_Create() in C:\git\QA\Hectre.OMS.Tests\Hectre.OMS.Tests\Tests\Login.cs:line 31" screenCapturePath="C:\git\QA\Hectre.OMS.Tests\Hectre.OMS.Tests\bin\Debug\netcoreapp3.1\TestReports\0-1002_Verify_User_Login_And_JobType_Create"/>
+</testcase>
+

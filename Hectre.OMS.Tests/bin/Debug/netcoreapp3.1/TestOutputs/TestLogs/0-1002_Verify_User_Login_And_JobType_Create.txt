@@ -1,0 +1,9 @@
+Starting timestamp: 14/09/2022 07:58:21 p. m.
+Test: Verify_User_Login_And_JobType_Create
+[INFO]: Navigating to url: https://staging-app.hectre.com/
+    [STEP]: Entered text heber@hectre.com on input field Email
+    [STEP]: Entered text Hectre2022 on input field Password
+    [STEP]: Clicked Sign In Btn
+    [STEP]: Clicked Admin
+    [STEP]: Clicked Jobs & Tasks
+[ERROR]: Failed
